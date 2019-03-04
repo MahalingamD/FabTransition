@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FabTransition</string>
+    <string name="label_date">July 2014</string>
+    <string name="label_18">18</string>
 </resources>

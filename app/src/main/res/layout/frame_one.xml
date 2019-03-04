@@ -9,28 +9,19 @@
 
     <LinearLayout
         android:id="@+id/slideLeftContainer"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/header_height"
+        android:gravity="center"
         android:orientation="vertical">
 
         <include layout="@layout/frame_two" />
+
         <include layout="@layout/frame_two" />
+
         <include layout="@layout/frame_two" />
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/slideRightContainer"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="right"
-        android:layout_marginTop="@dimen/header_height"
-        android:orientation="vertical">
-
-        <include layout="@layout/frame_two" />
-        <include layout="@layout/frame_two" />
-        <include layout="@layout/frame_two" />
-    </LinearLayout>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
